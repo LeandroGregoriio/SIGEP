@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.cadastro{
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+    width: 500px;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius:20px;
+    justify-content: space-between;
+    color: #188a89; 
+}
+
+.elementos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.elementos input, select {
+    
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: solid rgb(190, 190, 190) 1px;
+    width: 180px;
+    color: rgb(138, 138, 138);
+    font-size: 12px;
+    margin-bottom: 20px;
+    
+}
+
+.dataNascimento, input{
+    text-decoration: none; 
+}
+
+label{
+    color: #188a89;
+    font-size: 15px;
+}
+
+.botoesCadastro button {
+    border: none;
+    padding: 15px;
+    width: 48%;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+}
+
+#cadastrarAnimal{
+    
+    background: rgba(0, 128, 81, 0.582);
+    transition: 0.5s;  
+    box-shadow: none;
+}
+
+#cadastrarAnimal:hover{
+  
+    background: rgb(0, 238, 151);
+    transition: 0.5s;
+    box-shadow: 2px 2px 0.3em rgba(0, 0, 0, 0.233);  
+}
+
+#cancelarCadastro{
+        background:  rgb(189, 16, 16);
+        color: white;
+        box-shadow: none;
+        transition: 0.8s;
+        
+    }
+
+    #cancelarCadastro:hover{
+
+        background: rgb(255, 0, 0);
+        box-shadow: 2px 2px 0.3em rgba(0, 0, 0, 0.438);
+        transition: 0.8s;  
+    }
+    .pesquisaAnimal{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: 20px;
+        justify-content:  center;
+        align-items: center;
+        text-align: center;  
+        background-color: rgb(247, 247, 247);
+        height:60px;
+        width: 700px;
+        border-radius: 5px;
+    }
+    .fundo{
+        display: flex;
+        margin: auto;
+        width: 100%;
+        height: 100vh;
+        background: #272727ee;
+    }
+
+    .pesquisaAnimal input{
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: solid rgb(190, 190, 190) 1px;
+    width: 180px;
+    color: rgb(138, 138, 138);
+    font-size: 12px;
+    margin-left: 15px;
+    }
+
+    .pesquisaAnimal button{
+    padding: 5px;
+    border: none;
+    width: 60;
+    margin-left: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    background-color: #188a89;
+    transition: 0.5s;
+    }
+
+    .pesquisaAnimal button:hover{
+        transition: 0.5s;
+        padding: 5px;
+        border: none;
+        width: 60;
+        margin-left: 40px;
+        border-radius: 5px;
+        cursor: pointer;
+        color: white;
+        font-size: 15px;
+        background-color: #16afad;
+        }
+
+        .dataEntrada input{
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: solid rgb(190, 190, 190) 1px;
+    width: 180px;
+    color: rgb(138, 138, 138);
+    font-size: 12px;
+        }
+
+input[type='file']{
+    display: none;
+}
+
+#foto{
+    color: white;
+    padding: 8px 5px;
+    background-color:  #01b1ae;
+    border-radius: 5px;
+    display: block;
+    width: 120px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+#foto:hover{
+    border: 1px solid rgb(199, 199, 199);
+    color: rgb(0, 0, 0);
+    padding: 8px 5px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: block;
+    width: 120px;
+    cursor: pointer;
+    transition: 0.8s;
+}

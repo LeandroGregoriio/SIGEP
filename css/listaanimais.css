@@ -1,0 +1,74 @@
+
+.tabela button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+    position: relative;
+}
+
+#btnExibir{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    padding: 8px;
+    position: relative;
+    background: rgba(0, 209, 133, 0.582);
+    transition: 0.5s;  
+    box-shadow: none;
+}
+
+#btnExibir:hover{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    padding: 8px;
+    position: relative;
+    background: rgb(0, 238, 151);
+    transition: 0.5s;
+    box-shadow: 2px 2px 0.3em rgba(0, 0, 0, 0.233);  
+}
+
+.listaanimais{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+    width: 650px;
+    padding: 10px;
+    border-radius:20px;
+    color: #188a89; 
+    overflow-y: scroll;
+}
+
+table td{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: sticky;
+    padding:5px 10px 5px 10px;
+    margin: 5px;
+}
+
+table th{
+    padding: 5px;
+}
+
+.btnNulo{
+    border: none;
+}
+
+#radio{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+

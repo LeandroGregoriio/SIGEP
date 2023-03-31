@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+
+.conteudo{
+   
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    background-color: transparent;
+    color: #188a89;
+    font-size: 15px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.home{
+    background-color: rgb(247, 247, 247);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+body {
+    background-image: url('imagens/campo.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-color: rgb(250, 250, 250);
+}
+
+body .conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dados{
+    display: flex;
+    width: 600px;
+    min-height: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    background-color: rgb(250, 250, 250);
+    
+    
+}
+
+.iconeTexto{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.informacoes {
+    max-width: 150px;
+    width: 150px;
+    height: 90px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0.5em rgba(0, 0, 0, 0.158);
+    margin: 10px;
+    transition: 0.5s;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.informacoes:hover {
+    box-shadow: none;
+    transition: 0.5s;
+    color: rgb(0, 235, 149);
+    background-color: #f3f3f3;
+    
+}
+
+.dados p{
+    font-size: 15px;
+    color: rgb(109, 109, 109);
+}
+
+.dados h3{
+    font-size: 35px;
+}
+
+#financeiro{
+    font-size:25px;
+    color: #188a89;
+}
+
+#abates{
+    background:  rgb(189, 16, 16);
+    color: white;
+    transition: 0.5s;
+}
+
+.dados #abates:hover{
+    background: rgb(255, 23, 23);
+    transition: 0.5s;  
+}
+
+#abates p{
+    margin-top: 4px;
+    color: white;
+}
+
+#receitas{
+    background: rgb(0,255,162);
+    background: linear-gradient(133deg, rgb(0,255,162,1) 9%, rgb(0,185,117,1) 90%);
+    transition: 1s;
+}
+
+#receitas p{
+    margin-top: 4px;
+    color: white;
+}
+
+#estatistica{
+    margin-top: 60px;
+    font-size: 20px;
+    color: linear-gradient(133deg, rgba(0,255,162,1) 9%, rgba(0,185,117,1) 90%);
+}
+
+a{
+    text-decoration: none;
+}
+
+a { color: inherit; } 
