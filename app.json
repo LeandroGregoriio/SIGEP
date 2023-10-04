@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "SIGEP",
+    "slug": "Sigep",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2240fcc2-244c-4494-a930-807c0c8875ab"
+      }
+    },
+    "android": {
+      "package": "com.leandrogregoriio.Sigep"
+    }
+  }
+}
